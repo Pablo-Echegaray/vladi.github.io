@@ -1,0 +1,26 @@
+body{
+    background-image: url("../img/vladi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header{
+    padding-bottom: 2em;
+}
+
+header h1{
+    text-align: center;
+    color:white;
+   
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .card{
+    opacity: 0.85;
+    border: 2px solid green
+}
