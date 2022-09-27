@@ -61,4 +61,8 @@ main #info article {
 
     }
 
+    main #info img{
+        width: 90%
+    }
+
 }
