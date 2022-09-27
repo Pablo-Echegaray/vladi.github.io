@@ -1,12 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-image: url("../img/vladi.jpg");
+    /*background-image: url("../img/vladi.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     
 }
 
 header{
     padding-bottom: 2em;
+    background-color: black;
 }
 
 header h1{
@@ -15,18 +22,36 @@ header h1{
    
 }
 
-main {
+main #eventos {
+    background-color: black;
     display: flex;
     justify-content: space-around;
 }
 
-main .card{
+main #eventos .card{
     opacity: 0.85;
     border: 2px solid green
 }
 
+main #info{
+    background-color: black;
+}
+
+main #info h2{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    color: aliceblue;
+}
+
+main #info article {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    background-color: yellowgreen;
+}
+
 @media(max-width: 1000px) {
-    main{
+    main #eventos{
         flex-direction: column;
         align-items: center;
 
@@ -35,4 +60,5 @@ main .card{
         margin-bottom: 2em;
 
     }
+
 }
